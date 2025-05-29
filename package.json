@@ -5,12 +5,12 @@
   "type": "module",
   "homepage": "https://gksqls9735.github.io",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "vite build", 
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject", 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -b master -d dist" 
   },
   "dependencies": {
     "react": "^19.1.0",
